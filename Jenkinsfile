@@ -23,9 +23,9 @@ pipeline
       steps {
         echo "Getting the API Testing Repo"
         git(
-        url:'git@github.com:ochoadevops/api-testing.git',
+        url:'git@github.com:jiejayz/api-testing.git',
         credentialsId: 'api-testing',
-        branch: "master"
+        branch: "main"
         )
      }
 
